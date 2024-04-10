@@ -63,9 +63,13 @@ u1.add_student('Ildus', 28)
 
 
 u1.add_grade(1, 'Python', 4.8)
+u1.add_grade(1, 'PHP', 4.8)
 u1.add_grade(2, 'PHP', 4.3)
+u1.add_grade(2, 'Python', 4.8)
 u1.add_grade(3, 'Java', 4.8)
+u1.add_grade(3, 'Python', 4.8)
 u1.add_grade(4, 'C++', 4.1)
+u1.add_grade(4, 'Python', 4.8)
 
 print(u1.get_students())
 print(u1.get_students('Python'))
